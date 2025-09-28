@@ -1,2 +1,6 @@
 xml
+stream/_manifest.ymf
+stream/showcase.ymap
+build.cmd
+release.zip
 .gitignore
