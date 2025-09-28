@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+ <extensions />
+ <archetypes>
+  <Item type="CBaseArchetypeDef">
+   <lodDist value="80" />
+   <flags value="536871936" />
+   <specialAttribute value="0" />
+   <bbMin x="-2.74493122" y="-2.73927879" z="-0.0164206028" />
+   <bbMax x="2.73944378" y="2.74509621" z="2.35149431" />
+   <bsCentre x="-0.002743721" y="0.00290870667" z="1.16753685" />
+   <bsRadius value="4.054743" />
+   <hdTextureDist value="15" />
+   <name>vv_prop_fountain1</name>
+   <textureDictionary>vv_prop_fountain1_textures</textureDictionary>
+   <clipDictionary>v_garden</clipDictionary>
+   <drawableDictionary />
+   <physicsDictionary>vv_prop_fountain1</physicsDictionary>
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>vv_prop_fountain1</assetName>
+   <extensions>
+    <Item type="CExtensionDefParticleEffect">
+     <name>vv_prop_fountain1</name>
+     <offsetPosition x="0" y="0" z="2.365" />
+     <offsetRotation x="0" y="0" z="0" w="1" />
+     <fxName>amb_fountain_double</fxName>
+     <fxType value="0" />
+     <boneTag value="0" />
+     <scale value="1" />
+     <probability value="100" />
+     <flags value="0" />
+     <color value="0xFFFFFFFF" />
+    </Item>
+   </extensions>
+  </Item>
+  <Item type="CBaseArchetypeDef">
+   <lodDist value="60" />
+   <flags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-2.253336" y="-2.19877148" z="0.456846" />
+   <bbMax x="2.23396873" y="2.208455" z="0.456846" />
+   <bsCentre x="-0.009683609" y="0.0048418045" z="0.456846" />
+   <bsRadius value="3.144819" />
+   <hdTextureDist value="60" />
+   <name>vv_prop_fountain1_water</name>
+   <textureDictionary>vv_prop_fountain1_textures</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>vv_prop_fountain1_water</assetName>
+   <extensions />
+  </Item>
+ </archetypes>
+ <name>vv_prop_fountain1</name>
+ <dependencies />
+ <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

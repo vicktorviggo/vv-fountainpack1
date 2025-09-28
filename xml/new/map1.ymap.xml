@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapData>
+ <name>map1</name>
+ <parent />
+ <flags value="0" />
+ <contentFlags value="1" />
+ <streamingExtentsMin x="-2008.24487" y="253.372757" z="-72.73007" />
+ <streamingExtentsMax x="-1602.7605" y="658.8571" z="329.637848" />
+ <entitiesExtentsMin x="-1808.24487" y="453.372742" z="127.269928" />
+ <entitiesExtentsMax x="-1802.7605" y="458.857117" z="129.637848" />
+ <entities>
+  <Item type="CEntityDef">
+   <archetypeName>vv_prop_fountain1</archetypeName>
+   <flags value="68681760" />
+   <guid value="0" />
+   <position x="-1805.5" y="456.11203" z="127.286346" />
+   <rotation x="0" y="0" z="0" w="1" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="200" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+   <tintValue value="0" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>vv_prop_fountain1_water</archetypeName>
+   <flags value="1572864" />
+   <guid value="0" />
+   <position x="-1805.5" y="456.11203" z="127.286346" />
+   <rotation x="0" y="0" z="0" w="1" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="200" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+   <tintValue value="0" />
+  </Item>
+ </entities>
+ <containerLods itemType="rage__fwContainerLodDef" />
+ <boxOccluders itemType="BoxOccluder" />
+ <occludeModels itemType="OccludeModel" />
+ <physicsDictionaries />
+ <instancedData>
+  <ImapLink />
+  <PropInstanceList itemType="rage__fwPropInstanceListDef" />
+  <GrassInstanceList itemType="rage__fwGrassInstanceListDef" />
+ </instancedData>
+ <timeCycleModifiers itemType="CTimeCycleModifier" />
+ <carGenerators itemType="CCarGen" />
+ <LODLightsSOA>
+  <direction itemType="FloatXYZ" />
+  <falloff />
+  <falloffExponent />
+  <timeAndStateFlags />
+  <hash />
+  <coneInnerAngle />
+  <coneOuterAngleOrCapExt />
+  <coronaIntensity />
+ </LODLightsSOA>
+ <DistantLODLightsSOA>
+  <position itemType="FloatXYZ" />
+  <RGBI />
+  <numStreetLights value="0" />
+  <category value="0" />
+ </DistantLODLightsSOA>
+ <block>
+  <version value="0" />
+  <flags value="0" />
+  <name>map1</name>
+  <exportedBy>CodeWalker</exportedBy>
+  <owner></owner>
+  <time>28 September 2025 14:34</time>
+ </block>
+</CMapData>
