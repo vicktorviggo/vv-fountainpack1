@@ -1,3 +1,4 @@
 To enable the showcase map simply drag and drop the contents of the folder called showcasemap into the folder called stream
+and uncommment the this_is_a_map section of the fxmanifest
 
 it is located at -1805.5, 456.11203, 132.272827

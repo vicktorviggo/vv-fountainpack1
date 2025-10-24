@@ -3,7 +3,7 @@ game { 'gta5' }
 author 'vicktorviggo <https://vicktorviggos-shop.tebex.io/https://vicktorviggos-shop.tebex.io/>'
 version '1.0'
 
-this_is_a_map 'yes'
+--[[ this_is_a_map 'yes' ]] --[[ uncomment if you are using the showcase map ]]
 
 escrow_ignore {
     '*.*',
